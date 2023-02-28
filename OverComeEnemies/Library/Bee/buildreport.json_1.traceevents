@@ -1,0 +1,562 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1677598461318553, "dur": 1732624, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677598461318770, "dur": 9875, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677598461328646, "dur": 31540, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677598461360246, "dur": 915262, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677598462275510, "dur": 763447, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677598463038959, "dur": 12218, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677598463051756, "dur": 19, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1677598462119443, "dur": 142516, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1677598462120262, "dur": 45525, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1677598462248111, "dur": 3836, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1677598462251951, "dur": 9997, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1677598462252577, "dur": 8739, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1677598462266084, "dur": 1086, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1677598462265126, "dur": 2066, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677598463055147, "dur": 139, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1677598462311628, "dur":1763, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677598462313399, "dur":50, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1677598462313459, "dur":16, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1677598462313476, "dur":545, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1677598462314045, "dur":479, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677598462314524, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677598463018571, "dur":461, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677598463019032, "dur":41, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677598463019074, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677598463019076, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677598463019091, "dur":69, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677598463019160, "dur":25, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677598463019185, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677598463019191, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677598463019205, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677598463019208, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677598463019219, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677598463019220, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677598463019230, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677598463019232, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677598463019243, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677598463019245, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677598463019253, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677598463019255, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677598463019267, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677598463019269, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677598463019281, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677598463019283, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677598463019293, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677598463019295, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677598463019304, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677598463019306, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677598463019315, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677598463019317, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677598463019325, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677598463019327, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677598463019336, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677598463019338, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677598463019347, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677598463019366, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677598463019372, "dur":2025, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1677598462314079, "dur":464, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677598462314543, "dur":4210, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677598462318755, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1677598462318954, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677598462321723, "dur":15371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1677598462337142, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677598462337272, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677598462337280, "dur":69266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677598462406581, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677598462406612, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677598462406656, "dur":71893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677598462478566, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677598462478584, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677598462478589, "dur":21973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677598462500579, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677598462500598, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677598462500607, "dur":51036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677598462551659, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677598462551679, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677598462551683, "dur":23926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677598462575631, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677598462575650, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677598462575659, "dur":167874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677598462743549, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677598462743568, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1677598462743574, "dur":129412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1677598462873008, "dur":145595, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677598462314289, "dur":284, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677598462314573, "dur":4184, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677598462318758, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1677598462318925, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677598462321718, "dur":17797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1677598462339541, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677598462339582, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677598462339592, "dur":56268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677598462395876, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677598462395899, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677598462395907, "dur":26831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677598462422757, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677598462422780, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677598462422790, "dur":49656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677598462472465, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677598462472488, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677598462472499, "dur":32328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677598462504849, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677598462504872, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677598462504881, "dur":50187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677598462555087, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677598462555109, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677598462555120, "dur":25937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677598462581078, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677598462581096, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677598462581101, "dur":25981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677598462607104, "dur":1840, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677598462608951, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677598462608963, "dur":1238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677598462610219, "dur":1347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677598462611574, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677598462611585, "dur":1407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677598462613011, "dur":46193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677598462659208, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677598462659215, "dur":1736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677598462660971, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677598462660990, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677598462660999, "dur":161137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1677598462822158, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1677598462822310, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677598462824020, "dur":956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1677598462824997, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1677598462825018, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677598462825041, "dur":2246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1677598462827312, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":2, "ts":1677598462827345, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677598462827354, "dur":2679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":2, "ts":1677598462830056, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1677598462830075, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677598462830085, "dur":14561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1677598462844670, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1677598462844689, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677598462844699, "dur":1568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1677598462846288, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1677598462846441, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677598462846452, "dur":1175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1677598462847647, "dur":4151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1677598462851801, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677598462851806, "dur":921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1677598462852748, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1677598462852767, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677598462852776, "dur":1075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1677598462853870, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1677598462853889, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677598462853897, "dur":1655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1677598462855579, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1677598462855602, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1677598462855612, "dur":1423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1677598462857055, "dur":161510, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677598462314070, "dur":467, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677598462314537, "dur":4210, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677598462318748, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1677598462318933, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677598462321641, "dur":16387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1677598462338047, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677598462338070, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677598462338791, "dur":56674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677598462395482, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677598462395506, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677598462395512, "dur":36777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677598462432330, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677598462432354, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677598462432379, "dur":45905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677598462478305, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677598462478324, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677598462478333, "dur":38441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677598462516794, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677598462516814, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677598462516824, "dur":34989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677598462551831, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677598462551861, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677598462551867, "dur":129129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677598462681012, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677598462681030, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677598462681035, "dur":128118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677598462809174, "dur":47949, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677598462857127, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1677598462857137, "dur":903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1677598462858060, "dur":160511, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677598462314161, "dur":395, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677598462314556, "dur":4193, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677598462318750, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1677598462318947, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677598462321616, "dur":323860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1677598462645502, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677598462645524, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677598462645534, "dur":115040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677598462760592, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677598462760615, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1677598462760624, "dur":104346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1677598462864994, "dur":153601, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677598462314207, "dur":355, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677598462314562, "dur":3935, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677598462318501, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1677598462318590, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677598462325175, "dur":69563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1677598462394775, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677598462394830, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677598462394841, "dur":33782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677598462428646, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677598462428669, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677598462428683, "dur":38863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677598462467563, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677598462467582, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677598462467592, "dur":25711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677598462493321, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677598462493340, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677598462493350, "dur":24610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677598462517979, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677598462517997, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677598462518007, "dur":96922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677598462614949, "dur":1398, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677598462616354, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677598462616365, "dur":1580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677598462617962, "dur":1370, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677598462619339, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677598462619350, "dur":1258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677598462620628, "dur":1768, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677598462622404, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677598462622415, "dur":1122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677598462623555, "dur":2086, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677598462625648, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677598462625659, "dur":1176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677598462626853, "dur":37419, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677598462664307, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677598462664319, "dur":1066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677598462665404, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677598462665424, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677598462665432, "dur":97288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677598462762738, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677598462762760, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1677598462762769, "dur":255748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1677598463018530, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":5, "ts":1677598463018532, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677598462314352, "dur":232, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677598462314585, "dur":4175, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677598462318763, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1677598462318850, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677598462335068, "dur":2786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1677598462337874, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies.exe" }}
+,{ "pid":12345, "tid":6, "ts":1677598462337901, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677598462337908, "dur":57684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies.exe" }}
+,{ "pid":12345, "tid":6, "ts":1677598462395609, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677598462395632, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677598462395637, "dur":31519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677598462427173, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677598462427197, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677598462427212, "dur":30537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677598462457767, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677598462457787, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677598462457797, "dur":42105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677598462499921, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677598462499941, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677598462499952, "dur":46174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677598462546145, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677598462546168, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677598462546176, "dur":36007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677598462582205, "dur":46768, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677598462628980, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677598462628990, "dur":924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677598462629932, "dur":3583, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677598462633521, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677598462633534, "dur":1078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677598462634631, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677598462634653, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677598462634663, "dur":114785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677598462749469, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677598462749493, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1677598462749504, "dur":132484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":6, "ts":1677598462882004, "dur":136588, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677598462314396, "dur":192, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677598462314588, "dur":4181, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677598462318770, "dur":329, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1677598462319102, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677598462321617, "dur":13698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1677598462335340, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1677598462335387, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677598462335396, "dur":60158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1677598462395589, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677598462395611, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677598462395617, "dur":30958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677598462426597, "dur":130022, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677598462556626, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677598462556638, "dur":1436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677598462558094, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677598462558120, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677598462558131, "dur":24559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677598462582710, "dur":98478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677598462681192, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677598462681197, "dur":1995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677598462683211, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677598462683229, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1677598462683239, "dur":207944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1677598462891197, "dur":127387, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677598462314449, "dur":150, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677598462314600, "dur":4151, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677598462318752, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1677598462318885, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677598462321988, "dur":14011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1677598462336028, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677598462336096, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677598462336548, "dur":57668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677598462394262, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677598462394311, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677598462394326, "dur":48015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677598462442359, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677598462442386, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677598462442395, "dur":39100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677598462481514, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677598462481538, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677598462481549, "dur":23496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677598462505063, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677598462505084, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677598462505092, "dur":35591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677598462540698, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677598462540715, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677598462540721, "dur":64053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677598462604797, "dur":246849, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677598462851685, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677598462851697, "dur":1794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1677598462853510, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/resources.assets" }}
+,{ "pid":12345, "tid":8, "ts":1677598462853527, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677598462853538, "dur":1003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/resources.assets" }}
+,{ "pid":12345, "tid":8, "ts":1677598462854560, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1677598462854581, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677598462854590, "dur":1164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1677598462855770, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1677598462855889, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1677598462855897, "dur":1300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1677598462857214, "dur":161376, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677598462314518, "dur":8, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677598462314526, "dur":3963, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677598462318502, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":9, "ts":1677598462318514, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677598462319521, "dur":730, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":9, "ts":1677598462320257, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/app.info" }}
+,{ "pid":12345, "tid":9, "ts":1677598462320284, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677598462320410, "dur":10431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/app.info" }}
+,{ "pid":12345, "tid":9, "ts":1677598462330847, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1677598462330916, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677598462330954, "dur":305717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1677598462636693, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677598462636716, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1677598462636755, "dur":257145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":9, "ts":1677598462893919, "dur":124655, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677598462314587, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677598462314588, "dur":3918, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677598462318509, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1677598462318587, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677598462324202, "dur":16210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1677598462340445, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677598462340473, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677598462340484, "dur":55511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677598462396018, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677598462396050, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677598462396057, "dur":60664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677598462456743, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677598462456762, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677598462456771, "dur":45569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677598462502361, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677598462502390, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677598462502402, "dur":25836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677598462528259, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677598462528281, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677598462528292, "dur":23252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677598462551572, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677598462551593, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677598462551602, "dur":29443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677598462581068, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677598462581089, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677598462581099, "dur":36715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677598462617836, "dur":70968, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677598462688812, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677598462688822, "dur":1183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677598462690025, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677598462690046, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1677598462690054, "dur":193614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":10, "ts":1677598462883686, "dur":134891, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677598462314646, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677598462314646, "dur":4100, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677598462318747, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1677598462318874, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677598462321324, "dur":14681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1677598462336032, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677598462336093, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677598462336472, "dur":57955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677598462394464, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677598462394513, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677598462394527, "dur":26485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677598462421032, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677598462421056, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677598462421066, "dur":34559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677598462455641, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677598462455658, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677598462455667, "dur":54182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677598462509872, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677598462509898, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677598462509908, "dur":30544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677598462540476, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677598462540502, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677598462540513, "dur":22982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677598462563512, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677598462563540, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677598462563551, "dur":34380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677598462597949, "dur":82857, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677598462680812, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677598462680825, "dur":1030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677598462681871, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677598462681889, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677598462681897, "dur":41831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677598462723747, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677598462723775, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1677598462723786, "dur":157325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1677598462881156, "dur":137406, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1677598462314690, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1677598462314691, "dur":4067, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1677598462318759, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1677598462318895, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1677598462321707, "dur":315918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1677598462637650, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677598462637671, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1677598462637682, "dur":105583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677598462743288, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677598462743307, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1677598462743333, "dur":125929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1677598462869282, "dur":149316, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677598462314851, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677598462314851, "dur":3651, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677598462318504, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":13, "ts":1677598462318560, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677598462335283, "dur":2659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":13, "ts":1677598462337960, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":13, "ts":1677598462337998, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677598462339053, "dur":67956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":13, "ts":1677598462407038, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677598462407076, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677598462407086, "dur":47588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677598462454692, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677598462454726, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677598462454736, "dur":22703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677598462477461, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677598462477481, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677598462477491, "dur":33688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677598462511193, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677598462511213, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677598462511224, "dur":26653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677598462537899, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677598462537920, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677598462537930, "dur":25656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677598462563602, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677598462563618, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677598462563623, "dur":21587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677598462585231, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677598462585261, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677598462585273, "dur":64103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677598462649399, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677598462649421, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1677598462649430, "dur":219012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":13, "ts":1677598462868461, "dur":150098, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1677598462314759, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1677598462314759, "dur":4005, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1677598462318765, "dur":322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":14, "ts":1677598462319094, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1677598462321632, "dur":16886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":14, "ts":1677598462339167, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677598462339205, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1677598462339216, "dur":55770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677598462395018, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677598462395063, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1677598462395077, "dur":116096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677598462511192, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677598462511214, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1677598462511224, "dur":34668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677598462545918, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677598462545940, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1677598462545949, "dur":26822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677598462572792, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677598462572808, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1677598462572818, "dur":49082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677598462621919, "dur":37124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677598462659050, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1677598462659060, "dur":2213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677598462661290, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677598462661308, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1677598462661316, "dur":106229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677598462767565, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677598462767586, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1677598462767595, "dur":184213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":14, "ts":1677598462951827, "dur":66740, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1677598462314818, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1677598462314819, "dur":3943, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1677598462318763, "dur":379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":15, "ts":1677598462319144, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1677598462321597, "dur":13813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":15, "ts":1677598462335429, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":15, "ts":1677598462335456, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1677598462335461, "dur":3444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":15, "ts":1677598462338935, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1677598462338956, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1677598462338984, "dur":56234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1677598462395237, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1677598462395285, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1677598462395292, "dur":30372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1677598462425688, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1677598462425711, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1677598462425723, "dur":134958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1677598462560702, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1677598462560724, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1677598462560735, "dur":46824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1677598462607578, "dur":62837, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":15, "ts":1677598462670421, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1677598462670433, "dur":1568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":15, "ts":1677598462672025, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":15, "ts":1677598462672045, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1677598462672054, "dur":47382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":15, "ts":1677598462719454, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":15, "ts":1677598462719475, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1677598462719484, "dur":51169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":15, "ts":1677598462770672, "dur":138941, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":15, "ts":1677598462909620, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1677598462909632, "dur":1505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":15, "ts":1677598462911155, "dur":107409, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1677598462314911, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1677598462314911, "dur":3844, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1677598462318756, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":16, "ts":1677598462318848, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1677598462321748, "dur":16088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":16, "ts":1677598462337867, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":16, "ts":1677598462337922, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1677598462337926, "dur":56655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":16, "ts":1677598462394611, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1677598462394662, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1677598462394671, "dur":45884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1677598462440621, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1677598462440652, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1677598462440664, "dur":91985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1677598462532673, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1677598462532696, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1677598462532707, "dur":27096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1677598462559822, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1677598462559842, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1677598462559852, "dur":23213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1677598462583083, "dur":100674, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":16, "ts":1677598462683762, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1677598462683771, "dur":1352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":16, "ts":1677598462685144, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":16, "ts":1677598462685171, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1677598462685181, "dur":233257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/akosk/Desktop/OverComeEnemies/OverCome Enemies_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":16, "ts":1677598462918455, "dur":100106, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1677598463022511, "dur":1802, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1677598463055323, "dur": 464, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1677598463051740, "dur": 4061, "ph": "X", "name": "Write chrome-trace events", "args": {} },
